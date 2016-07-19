@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76AF61851D3EE87200B817A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF61841D3EE87200B817A7 /* AppDelegate.swift */; };
+		76AF61871D3EE87200B817A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AF61861D3EE87200B817A7 /* ViewController.swift */; };
+		76AF618A1D3EE87200B817A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AF61881D3EE87200B817A7 /* Main.storyboard */; };
+		76AF618C1D3EE87200B817A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AF618B1D3EE87200B817A7 /* Assets.xcassets */; };
+		76AF618F1D3EE87200B817A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AF618D1D3EE87200B817A7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		76AF61811D3EE87200B817A7 /* IndoorBeacon-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IndoorBeacon-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76AF61841D3EE87200B817A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76AF61861D3EE87200B817A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		76AF61891D3EE87200B817A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76AF618B1D3EE87200B817A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76AF618E1D3EE87200B817A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76AF61901D3EE87200B817A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76AF617E1D3EE87200B817A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76AF61781D3EE87200B817A7 = {
+			isa = PBXGroup;
+			children = (
+				76AF61831D3EE87200B817A7 /* IndoorBeacon-Client */,
+				76AF61821D3EE87200B817A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76AF61821D3EE87200B817A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76AF61811D3EE87200B817A7 /* IndoorBeacon-Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AF61831D3EE87200B817A7 /* IndoorBeacon-Client */ = {
+			isa = PBXGroup;
+			children = (
+				76AF61841D3EE87200B817A7 /* AppDelegate.swift */,
+				76AF61861D3EE87200B817A7 /* ViewController.swift */,
+				76AF61881D3EE87200B817A7 /* Main.storyboard */,
+				76AF618B1D3EE87200B817A7 /* Assets.xcassets */,
+				76AF618D1D3EE87200B817A7 /* LaunchScreen.storyboard */,
+				76AF61901D3EE87200B817A7 /* Info.plist */,
+			);
+			path = "IndoorBeacon-Client";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76AF61801D3EE87200B817A7 /* IndoorBeacon-Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AF61931D3EE87200B817A7 /* Build configuration list for PBXNativeTarget "IndoorBeacon-Client" */;
+			buildPhases = (
+				76AF617D1D3EE87200B817A7 /* Sources */,
+				76AF617E1D3EE87200B817A7 /* Frameworks */,
+				76AF617F1D3EE87200B817A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IndoorBeacon-Client";
+			productName = "IndoorBeacon-Client";
+			productReference = 76AF61811D3EE87200B817A7 /* IndoorBeacon-Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76AF61791D3EE87200B817A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Diaz Orona, Jesus A.";
+				TargetAttributes = {
+					76AF61801D3EE87200B817A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 6T34GEFQ3F;
+						DevelopmentTeamName = "Marco Antonio Hurtado Vargas";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 76AF617C1D3EE87200B817A7 /* Build configuration list for PBXProject "IndoorBeacon-Client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76AF61781D3EE87200B817A7;
+			productRefGroup = 76AF61821D3EE87200B817A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76AF61801D3EE87200B817A7 /* IndoorBeacon-Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76AF617F1D3EE87200B817A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AF618F1D3EE87200B817A7 /* LaunchScreen.storyboard in Resources */,
+				76AF618C1D3EE87200B817A7 /* Assets.xcassets in Resources */,
+				76AF618A1D3EE87200B817A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AF617D1D3EE87200B817A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AF61871D3EE87200B817A7 /* ViewController.swift in Sources */,
+				76AF61851D3EE87200B817A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76AF61881D3EE87200B817A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AF61891D3EE87200B817A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76AF618D1D3EE87200B817A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76AF618E1D3EE87200B817A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76AF61911D3EE87200B817A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76AF61921D3EE87200B817A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76AF61941D3EE87200B817A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IndoorBeacon-Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jado.IndoorBeacon-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76AF61951D3EE87200B817A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IndoorBeacon-Client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jado.IndoorBeacon-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76AF617C1D3EE87200B817A7 /* Build configuration list for PBXProject "IndoorBeacon-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AF61911D3EE87200B817A7 /* Debug */,
+				76AF61921D3EE87200B817A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AF61931D3EE87200B817A7 /* Build configuration list for PBXNativeTarget "IndoorBeacon-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76AF61941D3EE87200B817A7 /* Debug */,
+				76AF61951D3EE87200B817A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76AF61791D3EE87200B817A7 /* Project object */;
+}
