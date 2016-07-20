@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func shareLocationButtonTouched(_ sender: UIButton) {
+        BeaconsManager.sharedInstance.startSharingPositionUpdates()
+    }
 
+    @IBAction func stopSharingLocationButtonTouched(_ sender: UIButton) {
+        BeaconsManager.sharedInstance.stopSharingPositionUpdates()        
+    }
 }
 

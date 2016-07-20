@@ -13,9 +13,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    //Beacons configuration
+    
+    //TODO: Remplace your keys
+    let kBEACONS_APP_ID = "YOUR_APP_ID"
+    let kBEACONS_APP_TOKEN = "YOUR_TOKEN"    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Beacons initialization
+        ESTConfig.setupAppID(kBEACONS_APP_ID, andAppToken: kBEACONS_APP_TOKEN)
+        
+        if ESTConfig.isAuthorized() {
+            print("Estimote app authorized")
+        }
+        
         return true
     }
 
